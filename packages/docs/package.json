@@ -2,6 +2,7 @@
   "name": "@bonassa-ui/docs",
   "version": "0.0.0",
   "type": "module",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "storybook dev -p 6006",

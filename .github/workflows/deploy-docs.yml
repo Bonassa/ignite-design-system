@@ -29,6 +29,10 @@ jobs:
  
       #👇 Add Storybook build and deploy to GitHub Pages as a step in the workflow
       - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+        env:
+          TURBO_TOKEN: 9BKW4L55yfBlCctZ9k67va4W
+          TURBO_TEAM: bonassas-projects
+
         with:
           install_command: npm ci
           build_command: npm run build # default: npm run build-storybook
