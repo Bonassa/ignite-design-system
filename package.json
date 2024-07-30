@@ -1,14 +1,18 @@
 {
-  "name": "ignite-ui",
+  "name": "bonassa-ui",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo dev --parallel",
-    "build": "turbo build"
+    "build": "turbo build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@bonassa-ui/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "turbo": "^2.0.9"
   },
   "packageManager": "npm@10.7.0"

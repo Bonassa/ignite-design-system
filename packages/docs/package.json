@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@bonassa-ui/docs",
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
@@ -9,10 +9,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@bonassa-ui/eslint-config": "*",
+    "@bonassa-ui/react": "*",
+    "@bonassa-ui/tokens": "*",
+    "@bonassa-ui/ts-config": "*",
     "@storybook/addon-a11y": "^8.2.6",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
