@@ -31,6 +31,7 @@ export const Primary: StoryType = {
 export const WithPrefix: StoryType = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username'
   },
 }
 
